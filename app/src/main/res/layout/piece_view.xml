@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/piece_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/btam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="tam"
+        android:onClick="onClickPiece"
+        android:padding="0dp"
+        android:scaleType="matrix"
+        android:tag="2" />
+
+    <ImageView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bio"
+        android:onClick="onClickPiece"
+        android:padding="1dp"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rio"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bnuak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bnuak"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rnuak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rnuak"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/buai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="buai"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/buai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="buai"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/ruai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="ruai"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/ruai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="ruai"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/btuk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="btuk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/btuk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="btuk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rtuk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rtuk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rtuk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rtuk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bkua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bkua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rkua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rkua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bmaun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bmaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bmaun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bmaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rmaun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rmaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rmaun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rmaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bdau1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bdau"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bdau2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bdau"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rdau1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rdau"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rdau2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rdau"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bkaun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bkaun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rkaun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rkaun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkaun"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bgua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bgua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bgua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bgua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rgua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rgua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rgua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rgua"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bkauk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bkauk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bkauk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bkauk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bkauk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bkauk6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/bkauk7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/bkauk8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="bkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rkauk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rkauk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rkauk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rkauk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rkauk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rkauk6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+    <ImageView
+        android:id="@+id/rkauk7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="0" />
+
+    <ImageView
+        android:id="@+id/rkauk8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rkauk"
+        android:onClick="onClickPiece"
+        android:padding="@dimen/piece_padding"
+        android:scaleType="matrix"
+        android:tag="1" />
+
+</FrameLayout>

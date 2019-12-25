@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="@id/field"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="@id/field">
+
+    <GridLayout
+        android:id="@+id/gridButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:columnCount="9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <Button
+            android:id="@+id/ka"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ka" />
+
+        <Button
+            android:id="@+id/la"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="la" />
+
+        <Button
+            android:id="@+id/na"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="na" />
+
+        <Button
+            android:id="@+id/ta"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ta" />
+
+        <Button
+            android:id="@+id/za"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="za" />
+
+        <Button
+            android:id="@+id/xa"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xa" />
+
+        <Button
+            android:id="@+id/ca"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ca" />
+
+        <Button
+            android:id="@+id/ma"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ma" />
+
+        <Button
+            android:id="@+id/pa"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pa" />
+
+        <Button
+            android:id="@+id/ke"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ke" />
+
+        <Button
+            android:id="@+id/le"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="le" />
+
+        <Button
+            android:id="@+id/ne"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ne" />
+
+        <Button
+            android:id="@+id/te"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="te" />
+
+        <Button
+            android:id="@+id/ze"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ze" />
+
+        <Button
+            android:id="@+id/xe"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xe" />
+
+        <Button
+            android:id="@+id/ce"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ce" />
+
+        <Button
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="me" />
+
+        <Button
+            android:id="@+id/pe"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pe" />
+
+        <Button
+            android:id="@+id/ki"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ki" />
+
+        <Button
+            android:id="@+id/li"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="li" />
+
+        <Button
+            android:id="@+id/ni"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ni" />
+
+        <Button
+            android:id="@+id/ti"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ti" />
+
+        <Button
+            android:id="@+id/zi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zi" />
+
+        <Button
+            android:id="@+id/xi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xi" />
+
+        <Button
+            android:id="@+id/ci"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ci" />
+
+        <Button
+            android:id="@+id/mi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="mi" />
+
+        <Button
+            android:id="@+id/pi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pi" />
+
+        <Button
+            android:id="@+id/ku"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ku" />
+
+        <Button
+            android:id="@+id/lu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="lu" />
+
+        <Button
+            android:id="@+id/nu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="nu" />
+
+        <Button
+            android:id="@+id/tu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="tu" />
+
+        <Button
+            android:id="@+id/zu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zu" />
+
+        <Button
+            android:id="@+id/xu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xu" />
+
+        <Button
+            android:id="@+id/cu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="cu" />
+
+        <Button
+            android:id="@+id/mu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="mu" />
+
+        <Button
+            android:id="@+id/pu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pu" />
+
+        <Button
+            android:id="@+id/ko"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ko" />
+
+        <Button
+            android:id="@+id/lo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="lo" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="no" />
+
+        <Button
+            android:id="@+id/to"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="to" />
+
+        <Button
+            android:id="@+id/zo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zo" />
+
+        <Button
+            android:id="@+id/xo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xo" />
+
+        <Button
+            android:id="@+id/co"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="co" />
+
+        <Button
+            android:id="@+id/mo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="mo" />
+
+        <Button
+            android:id="@+id/po"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="po" />
+
+        <Button
+            android:id="@+id/ky"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ky" />
+
+        <Button
+            android:id="@+id/ly"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ly" />
+
+        <Button
+            android:id="@+id/ny"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ny" />
+
+        <Button
+            android:id="@+id/ty"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="ty" />
+
+        <Button
+            android:id="@+id/zy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zy" />
+
+        <Button
+            android:id="@+id/xy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xy" />
+
+        <Button
+            android:id="@+id/cy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="cy" />
+
+        <Button
+            android:id="@+id/my"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="my" />
+
+        <Button
+            android:id="@+id/py"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="py" />
+
+        <Button
+            android:id="@+id/kai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="kai" />
+
+        <Button
+            android:id="@+id/lai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="lai" />
+
+        <Button
+            android:id="@+id/nai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="nai" />
+
+        <Button
+            android:id="@+id/tai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="tai" />
+
+        <Button
+            android:id="@+id/zai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zai" />
+
+        <Button
+            android:id="@+id/xai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xai" />
+
+        <Button
+            android:id="@+id/cai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="cai" />
+
+        <Button
+            android:id="@+id/mai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="mai" />
+
+        <Button
+            android:id="@+id/pai"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pai" />
+
+        <Button
+            android:id="@+id/kau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="kau" />
+
+        <Button
+            android:id="@+id/lau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="lau" />
+
+        <Button
+            android:id="@+id/nau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="nau" />
+
+        <Button
+            android:id="@+id/tau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="tau" />
+
+        <Button
+            android:id="@+id/zau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zau" />
+
+        <Button
+            android:id="@+id/xau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xau" />
+
+        <Button
+            android:id="@+id/cau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="cau" />
+
+        <Button
+            android:id="@+id/mau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="mau" />
+
+        <Button
+            android:id="@+id/pau"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pau" />
+
+        <Button
+            android:id="@+id/kia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="kia" />
+
+        <Button
+            android:id="@+id/lia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="lia" />
+
+        <Button
+            android:id="@+id/nia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="nia" />
+
+        <Button
+            android:id="@+id/tia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="tia" />
+
+        <Button
+            android:id="@+id/zia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="zia" />
+
+        <Button
+            android:id="@+id/xia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="xia" />
+
+        <Button
+            android:id="@+id/cia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="cia" />
+
+        <Button
+            android:id="@+id/mia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="mia" />
+
+        <Button
+            android:id="@+id/pia"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/grid_button_bgcolor"
+            android:onClick="onClickGrid"
+            android:tag="pia" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

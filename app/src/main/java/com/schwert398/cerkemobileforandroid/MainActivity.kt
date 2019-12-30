@@ -257,6 +257,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun copyImageView(view: ImageView): ImageView{
+        // actually image do not be null (unless contentDescription is invalid)
         val image = resizedImageList[view.contentDescription]
         return ImageView(this).apply {
             layoutParams = ViewGroup.LayoutParams(view.width, view.height).apply {

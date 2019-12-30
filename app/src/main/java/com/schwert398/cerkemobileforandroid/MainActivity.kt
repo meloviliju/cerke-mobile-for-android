@@ -12,6 +12,7 @@ import android.view.ViewTreeObserver
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.core.view.setPadding
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.piece_view.*
 import kotlinx.android.synthetic.main.activity_main.view.*
@@ -34,6 +35,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var gridList: Array<Button>
     private var resizedImageList = mutableMapOf<String, Bitmap>()
 
+    private val matrix180 = Matrix().apply {postRotate(180f)}
+    private val matrix90 = Matrix().apply {postRotate(90f)}
     // parameter
     private var chosenPiece: ImageView? = null
     // private var origin: ImageView? = null
@@ -119,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun imageResize(fieldSize: Int) {
         val imageResourceId = mapOf(
-            "btam" to R.drawable.btam,
+            "btam" to R.drawable.btam, "rtam" to R.drawable.rtam,
             "bio" to R.drawable.bio, "rio" to R.drawable.rio,
             "bnuak" to R.drawable.bnuak, "rnuak" to R.drawable.rnuak,
             "buai" to R.drawable.buai, "ruai" to R.drawable.ruai,
@@ -156,8 +159,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun pieceImageAssigner(resizedImageList: MutableMap<String, Bitmap>) {
-        val matrix180 = Matrix().apply {postRotate(180f)}
-        val matrix90 = Matrix().apply {postRotate(90f)}
         for (piece in pieceList) {
             val image = resizedImageList[piece.contentDescription]
             if (null != image){
@@ -182,7 +183,11 @@ class MainActivity : AppCompatActivity() {
 
     fun onClickGrid(view: View) {
         if (null != chosenPiece) {
-            move(chosenPiece, view)
+            if (chosenPiece!!.parent != piece_frame) {
+                parachute(chosenPiece, view)
+            }else{
+                move(chosenPiece, view)
+            }
         } else {
             toast(view.contentDescription.toString())
         }
@@ -191,7 +196,12 @@ class MainActivity : AppCompatActivity() {
     fun onClickPiece(view: View) {
         if (view is ImageView) {
             if (null != chosenPiece) {
-                gain(chosenPiece, view)
+                if (chosenPiece!!.parent != piece_frame) {
+                    toast("Can't parachute hand where other piece is!")
+                    chosenPiece = null
+                }else{
+                    gain(chosenPiece, view)
+                }
             } else {
                 chosenPiece = view
                 toast(view.contentDescription.toString())
@@ -202,33 +212,17 @@ class MainActivity : AppCompatActivity() {
     fun onClickButton(view: View){
         when(view.id) {
             R.id.button1 -> pieceLocator()
-            R.id.button2 -> {
-                val al = arrayListOf<IntArray>()
-                for (p in pieceList){
-                    IntArray(2).also {
-                        p.getLocationOnScreen(it)
-                        al.add(it)
-                    }
-                }
-                toasty(al)
-                for (p in gridList){
-                    IntArray(2).also {
-                        p.getLocationOnScreen(it)
-                        al.add(it)
-                    }
-                }
-                toasty(al)
-            }
+            R.id.button2 -> toast(chosenPiece?.contentDescription.toString())
         }
     }
 
     // Actually piece do not be null
     private fun move(piece: ImageView?, dest: View) {
         val destLocation = IntArray(2)
-        val rect = Rect()
-
+        val rect = Rect().also{
+            window.decorView.getWindowVisibleDisplayFrame(it)
+        }
         dest.getLocationOnScreen(destLocation)
-        window.decorView.getWindowVisibleDisplayFrame(rect)
         piece!!.x = destLocation[0].toFloat()
         piece.y = (destLocation[1]-rect.top).toFloat()
 
@@ -240,20 +234,51 @@ class MainActivity : AppCompatActivity() {
         move(getter, target)
         val targetView = copyImageView(target)
         piece_frame.removeView(target)
-        blackHandQueue.addView(targetView)
-        toast("Took ${target.contentDescription} by ${getter!!.contentDescription}")
+        when (getter!!.tag) {
+            "0" -> blackHandQueue.addView(targetView)
+            "1" -> redHandQueue.addView(targetView)
+        }
+        toast("Took ${target.contentDescription} by ${getter.contentDescription}")
         chosenPiece = null
     }
 
-    private fun copyImageView(view: ImageView): ImageView{
-        return ImageView(this).apply {
-            layoutParams = ViewGroup.LayoutParams(view.width-8, view.height-8)
-            setImageBitmap(resizedImageList[view.contentDescription])
-            contentDescription = view.contentDescription
-            when (view.tag) {
-                "0" -> tag = "1"
-                "1" -> tag = "0"
+    // Actually view do not be null
+    private fun parachute(view: ImageView?, dest: View){
+        if (null != view) {
+            val parachutedView = copyImageView(view)
+            piece_frame.addView(parachutedView)
+            move(parachutedView, dest)
+            if (view.parent == blackHandQueue){
+                blackHandQueue.removeView(view)
+            }else{
+                redHandQueue.removeView(view)
             }
+        }
+    }
+
+    private fun copyImageView(view: ImageView): ImageView{
+        val image = resizedImageList[view.contentDescription]
+        return ImageView(this).apply {
+            layoutParams = ViewGroup.LayoutParams(view.width, view.height).apply {
+                setPadding(3)
+            }
+            setOnClickListener{
+                onClickPiece(it)
+            }
+            tag = when {
+                view.parent != piece_frame -> view.tag
+                view.tag == "0" -> "1"
+                view.tag == "1" -> "0"
+                else -> "2"
+            }
+            if (tag == "1"){
+                setImageBitmap(Bitmap.createBitmap(
+                    image!!, 0, 0, image.width, image.height, matrix180, false
+                ))
+            }else {
+                setImageBitmap(image)
+            }
+            contentDescription = view.contentDescription
         }
     }
 }

@@ -26,7 +26,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ka" />
+            android:contentDescription="ka" />
 
         <Button
             android:id="@+id/la"
@@ -34,7 +34,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="la" />
+            android:contentDescription="la" />
 
         <Button
             android:id="@+id/na"
@@ -42,7 +42,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="na" />
+            android:contentDescription="na" />
 
         <Button
             android:id="@+id/ta"
@@ -50,7 +50,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ta" />
+            android:contentDescription="ta" />
 
         <Button
             android:id="@+id/za"
@@ -58,7 +58,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="za" />
+            android:contentDescription="za" />
 
         <Button
             android:id="@+id/xa"
@@ -66,7 +66,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xa" />
+            android:contentDescription="xa" />
 
         <Button
             android:id="@+id/ca"
@@ -74,7 +74,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ca" />
+            android:contentDescription="ca" />
 
         <Button
             android:id="@+id/ma"
@@ -82,7 +82,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ma" />
+            android:contentDescription="ma" />
 
         <Button
             android:id="@+id/pa"
@@ -90,7 +90,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pa" />
+            android:contentDescription="pa" />
 
         <Button
             android:id="@+id/ke"
@@ -98,7 +98,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ke" />
+            android:contentDescription="ke" />
 
         <Button
             android:id="@+id/le"
@@ -106,7 +106,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="le" />
+            android:contentDescription="le" />
 
         <Button
             android:id="@+id/ne"
@@ -114,7 +114,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ne" />
+            android:contentDescription="ne" />
 
         <Button
             android:id="@+id/te"
@@ -122,7 +122,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="te" />
+            android:contentDescription="te" />
 
         <Button
             android:id="@+id/ze"
@@ -130,7 +130,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ze" />
+            android:contentDescription="ze" />
 
         <Button
             android:id="@+id/xe"
@@ -138,7 +138,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xe" />
+            android:contentDescription="xe" />
 
         <Button
             android:id="@+id/ce"
@@ -146,7 +146,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ce" />
+            android:contentDescription="ce" />
 
         <Button
             android:id="@+id/me"
@@ -154,7 +154,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="me" />
+            android:contentDescription="me" />
 
         <Button
             android:id="@+id/pe"
@@ -162,7 +162,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pe" />
+            android:contentDescription="pe" />
 
         <Button
             android:id="@+id/ki"
@@ -170,7 +170,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ki" />
+            android:contentDescription="ki" />
 
         <Button
             android:id="@+id/li"
@@ -178,7 +178,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="li" />
+            android:contentDescription="li" />
 
         <Button
             android:id="@+id/ni"
@@ -186,7 +186,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ni" />
+            android:contentDescription="ni" />
 
         <Button
             android:id="@+id/ti"
@@ -194,7 +194,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ti" />
+            android:contentDescription="ti" />
 
         <Button
             android:id="@+id/zi"
@@ -202,7 +202,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zi" />
+            android:contentDescription="zi" />
 
         <Button
             android:id="@+id/xi"
@@ -210,7 +210,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xi" />
+            android:contentDescription="xi" />
 
         <Button
             android:id="@+id/ci"
@@ -218,7 +218,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ci" />
+            android:contentDescription="ci" />
 
         <Button
             android:id="@+id/mi"
@@ -226,7 +226,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="mi" />
+            android:contentDescription="mi" />
 
         <Button
             android:id="@+id/pi"
@@ -234,7 +234,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pi" />
+            android:contentDescription="pi" />
 
         <Button
             android:id="@+id/ku"
@@ -242,7 +242,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ku" />
+            android:contentDescription="ku" />
 
         <Button
             android:id="@+id/lu"
@@ -250,7 +250,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="lu" />
+            android:contentDescription="lu" />
 
         <Button
             android:id="@+id/nu"
@@ -258,7 +258,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="nu" />
+            android:contentDescription="nu" />
 
         <Button
             android:id="@+id/tu"
@@ -266,7 +266,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="tu" />
+            android:contentDescription="tu" />
 
         <Button
             android:id="@+id/zu"
@@ -274,7 +274,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zu" />
+            android:contentDescription="zu" />
 
         <Button
             android:id="@+id/xu"
@@ -282,7 +282,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xu" />
+            android:contentDescription="xu" />
 
         <Button
             android:id="@+id/cu"
@@ -290,7 +290,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="cu" />
+            android:contentDescription="cu" />
 
         <Button
             android:id="@+id/mu"
@@ -298,7 +298,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="mu" />
+            android:contentDescription="mu" />
 
         <Button
             android:id="@+id/pu"
@@ -306,7 +306,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pu" />
+            android:contentDescription="pu" />
 
         <Button
             android:id="@+id/ko"
@@ -314,7 +314,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ko" />
+            android:contentDescription="ko" />
 
         <Button
             android:id="@+id/lo"
@@ -322,7 +322,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="lo" />
+            android:contentDescription="lo" />
 
         <Button
             android:id="@+id/no"
@@ -330,7 +330,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="no" />
+            android:contentDescription="no" />
 
         <Button
             android:id="@+id/to"
@@ -338,7 +338,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="to" />
+            android:contentDescription="to" />
 
         <Button
             android:id="@+id/zo"
@@ -346,7 +346,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zo" />
+            android:contentDescription="zo" />
 
         <Button
             android:id="@+id/xo"
@@ -354,7 +354,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xo" />
+            android:contentDescription="xo" />
 
         <Button
             android:id="@+id/co"
@@ -362,7 +362,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="co" />
+            android:contentDescription="co" />
 
         <Button
             android:id="@+id/mo"
@@ -370,7 +370,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="mo" />
+            android:contentDescription="mo" />
 
         <Button
             android:id="@+id/po"
@@ -378,7 +378,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="po" />
+            android:contentDescription="po" />
 
         <Button
             android:id="@+id/ky"
@@ -386,7 +386,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ky" />
+            android:contentDescription="ky" />
 
         <Button
             android:id="@+id/ly"
@@ -394,7 +394,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ly" />
+            android:contentDescription="ly" />
 
         <Button
             android:id="@+id/ny"
@@ -402,7 +402,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ny" />
+            android:contentDescription="ny" />
 
         <Button
             android:id="@+id/ty"
@@ -410,7 +410,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="ty" />
+            android:contentDescription="ty" />
 
         <Button
             android:id="@+id/zy"
@@ -418,7 +418,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zy" />
+            android:contentDescription="zy" />
 
         <Button
             android:id="@+id/xy"
@@ -426,7 +426,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xy" />
+            android:contentDescription="xy" />
 
         <Button
             android:id="@+id/cy"
@@ -434,7 +434,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="cy" />
+            android:contentDescription="cy" />
 
         <Button
             android:id="@+id/my"
@@ -442,7 +442,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="my" />
+            android:contentDescription="my" />
 
         <Button
             android:id="@+id/py"
@@ -450,7 +450,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="py" />
+            android:contentDescription="py" />
 
         <Button
             android:id="@+id/kai"
@@ -458,7 +458,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="kai" />
+            android:contentDescription="kai" />
 
         <Button
             android:id="@+id/lai"
@@ -466,7 +466,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="lai" />
+            android:contentDescription="lai" />
 
         <Button
             android:id="@+id/nai"
@@ -474,7 +474,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="nai" />
+            android:contentDescription="nai" />
 
         <Button
             android:id="@+id/tai"
@@ -482,7 +482,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="tai" />
+            android:contentDescription="tai" />
 
         <Button
             android:id="@+id/zai"
@@ -490,7 +490,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zai" />
+            android:contentDescription="zai" />
 
         <Button
             android:id="@+id/xai"
@@ -498,7 +498,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xai" />
+            android:contentDescription="xai" />
 
         <Button
             android:id="@+id/cai"
@@ -506,7 +506,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="cai" />
+            android:contentDescription="cai" />
 
         <Button
             android:id="@+id/mai"
@@ -514,7 +514,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="mai" />
+            android:contentDescription="mai" />
 
         <Button
             android:id="@+id/pai"
@@ -522,7 +522,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pai" />
+            android:contentDescription="pai" />
 
         <Button
             android:id="@+id/kau"
@@ -530,7 +530,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="kau" />
+            android:contentDescription="kau" />
 
         <Button
             android:id="@+id/lau"
@@ -538,7 +538,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="lau" />
+            android:contentDescription="lau" />
 
         <Button
             android:id="@+id/nau"
@@ -546,7 +546,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="nau" />
+            android:contentDescription="nau" />
 
         <Button
             android:id="@+id/tau"
@@ -554,7 +554,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="tau" />
+            android:contentDescription="tau" />
 
         <Button
             android:id="@+id/zau"
@@ -562,7 +562,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zau" />
+            android:contentDescription="zau" />
 
         <Button
             android:id="@+id/xau"
@@ -570,7 +570,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xau" />
+            android:contentDescription="xau" />
 
         <Button
             android:id="@+id/cau"
@@ -578,7 +578,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="cau" />
+            android:contentDescription="cau" />
 
         <Button
             android:id="@+id/mau"
@@ -586,7 +586,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="mau" />
+            android:contentDescription="mau" />
 
         <Button
             android:id="@+id/pau"
@@ -594,7 +594,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pau" />
+            android:contentDescription="pau" />
 
         <Button
             android:id="@+id/kia"
@@ -602,7 +602,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="kia" />
+            android:contentDescription="kia" />
 
         <Button
             android:id="@+id/lia"
@@ -610,7 +610,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="lia" />
+            android:contentDescription="lia" />
 
         <Button
             android:id="@+id/nia"
@@ -618,7 +618,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="nia" />
+            android:contentDescription="nia" />
 
         <Button
             android:id="@+id/tia"
@@ -626,7 +626,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="tia" />
+            android:contentDescription="tia" />
 
         <Button
             android:id="@+id/zia"
@@ -634,7 +634,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="zia" />
+            android:contentDescription="zia" />
 
         <Button
             android:id="@+id/xia"
@@ -642,7 +642,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="xia" />
+            android:contentDescription="xia" />
 
         <Button
             android:id="@+id/cia"
@@ -650,7 +650,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="cia" />
+            android:contentDescription="cia" />
 
         <Button
             android:id="@+id/mia"
@@ -658,7 +658,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="mia" />
+            android:contentDescription="mia" />
 
         <Button
             android:id="@+id/pia"
@@ -666,7 +666,7 @@
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
             android:onClick="onClickGrid"
-            android:tag="pia" />
+            android:contentDescription="pia" />
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

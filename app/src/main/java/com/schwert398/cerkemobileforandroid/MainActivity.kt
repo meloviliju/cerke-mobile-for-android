@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
         for (elm in text) str += "$elm "
         toast(str)
     }
+
     private fun toasty(array: ArrayList<IntArray>){
         var str = ""
         for (elm in array){

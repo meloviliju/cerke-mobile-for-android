@@ -188,6 +188,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 move(chosenPiece, view)
             }
+            chosenPiece = null
         } else {
             toast(view.contentDescription.toString())
         }
@@ -198,21 +199,28 @@ class MainActivity : AppCompatActivity() {
             if (null != chosenPiece) {
                 if (chosenPiece!!.parent != piece_frame) {
                     toast("Can't parachute hand where other piece is!")
-                    chosenPiece = null
                 }else{
                     gain(chosenPiece, view)
                 }
+                chosenPiece = null
             } else {
                 chosenPiece = view
-                toast(view.contentDescription.toString())
+                // toast(view.contentDescription.toString())
             }
         }
     }
 
     fun onClickButton(view: View){
         when(view.id) {
-            R.id.button1 -> pieceLocator()
-            R.id.button2 -> toast(chosenPiece?.contentDescription.toString())
+            R.id.initButton -> pieceLocator()
+            R.id.checkButton -> toast(chosenPiece?.contentDescription.toString())
+            R.id.cancelButton -> chosenPiece = null
+            R.id.rotateButton -> {
+                if (chosenPiece != null) {
+                    rotate(chosenPiece)
+                    chosenPiece = null
+                }
+            }
         }
     }
 
@@ -225,8 +233,6 @@ class MainActivity : AppCompatActivity() {
         dest.getLocationOnScreen(destLocation)
         piece!!.x = destLocation[0].toFloat()
         piece.y = (destLocation[1]-rect.top).toFloat()
-
-        chosenPiece = null
     }
 
     // Actually getter do not be null
@@ -239,7 +245,6 @@ class MainActivity : AppCompatActivity() {
             "1" -> redHandQueue.addView(targetView)
         }
         toast("Took ${target.contentDescription} by ${getter.contentDescription}")
-        chosenPiece = null
     }
 
     // Actually view do not be null
@@ -252,6 +257,23 @@ class MainActivity : AppCompatActivity() {
                 blackHandQueue.removeView(view)
             }else{
                 redHandQueue.removeView(view)
+            }
+        }
+    }
+
+    private fun rotate(view: ImageView?){
+        if (null != view) {
+            val image = resizedImageList[view.contentDescription]
+            when (view.tag) {
+                "0" -> {view.setImageBitmap(Bitmap.createBitmap(
+                            image!!, 0, 0, image.width, image.height, matrix180, false
+                        ))
+                    view.tag = "1"
+                }
+                "1" -> {
+                    view.setImageBitmap(image)
+                    view.tag = "0"
+                }
             }
         }
     }

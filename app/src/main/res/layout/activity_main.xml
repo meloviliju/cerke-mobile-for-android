@@ -7,23 +7,41 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:id="@+id/initButton"
+        android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
         android:onClick="onClickButton"
         android:text="INIT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/checkButton"
+        android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
         android:onClick="onClickButton"
         android:text="Check"
-        app:layout_constraintBottom_toBottomOf="@id/button1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/rotateButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="onClickButton"
+        android:text="Rotate"
+        app:layout_constraintBottom_toTopOf="@id/checkButton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="onClickButton"
+        android:text="Cancel"
+        app:layout_constraintBottom_toTopOf="@id/rotateButton"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ScrollView
@@ -31,8 +49,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginRight="120dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
         android:layout_marginBottom="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,8 +68,8 @@
         android:id="@+id/redHandFrame"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginStart="120dp"
-        android:layout_marginLeft="120dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:orientation="vertical"
@@ -76,7 +94,9 @@
         app:srcCompat="@drawable/field"
         tools:layout_editor_absoluteX="8dp" />
 
-    <include layout="@layout/grid_view" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/grid_view" />
 
     <include layout="@layout/piece_view" />
 

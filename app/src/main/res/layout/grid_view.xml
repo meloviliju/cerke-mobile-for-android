@@ -18,655 +18,655 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/ka"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ka" />
+            android:contentDescription="ka"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/la"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="la" />
+            android:contentDescription="la"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/na"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="na" />
+            android:contentDescription="na"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ta"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ta" />
+            android:contentDescription="ta"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/za"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="za" />
+            android:contentDescription="za"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xa"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xa" />
+            android:contentDescription="xa"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ca"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ca" />
+            android:contentDescription="ca"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ma"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ma" />
+            android:contentDescription="ma"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pa"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pa" />
+            android:contentDescription="pa"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ke"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ke" />
+            android:contentDescription="ke"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/le"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="le" />
+            android:contentDescription="le"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ne"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ne" />
+            android:contentDescription="ne"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/te"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="te" />
+            android:contentDescription="te"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ze"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ze" />
+            android:contentDescription="ze"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xe"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xe" />
+            android:contentDescription="xe"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ce"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ce" />
+            android:contentDescription="ce"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/me"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="me" />
+            android:contentDescription="me"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pe"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pe" />
+            android:contentDescription="pe"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ki"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ki" />
+            android:contentDescription="ki"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/li"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="li" />
+            android:contentDescription="li"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ni"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ni" />
+            android:contentDescription="ni"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ti"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ti" />
+            android:contentDescription="ti"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zi" />
+            android:contentDescription="zi"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xi" />
+            android:contentDescription="xi"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ci"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ci" />
+            android:contentDescription="ci"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/mi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="mi" />
+            android:contentDescription="mi"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pi"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pi" />
+            android:contentDescription="pi"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ku"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ku" />
+            android:contentDescription="ku"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/lu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="lu" />
+            android:contentDescription="lu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/nu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="nu" />
+            android:contentDescription="nu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/tu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="tu" />
+            android:contentDescription="tu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zu" />
+            android:contentDescription="zu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xu" />
+            android:contentDescription="xu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/cu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="cu" />
+            android:contentDescription="cu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/mu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="mu" />
+            android:contentDescription="mu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pu" />
+            android:contentDescription="pu"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ko"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ko" />
+            android:contentDescription="ko"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/lo"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="lo" />
+            android:contentDescription="lo"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/no"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="no" />
+            android:contentDescription="no"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/to"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="to" />
+            android:contentDescription="to"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zo"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zo" />
+            android:contentDescription="zo"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xo"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xo" />
+            android:contentDescription="xo"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/co"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="co" />
+            android:contentDescription="co"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/mo"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="mo" />
+            android:contentDescription="mo"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/po"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="po" />
+            android:contentDescription="po"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ky"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ky" />
+            android:contentDescription="ky"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ly"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ly" />
+            android:contentDescription="ly"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ny"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ny" />
+            android:contentDescription="ny"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/ty"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="ty" />
+            android:contentDescription="ty"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zy"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zy" />
+            android:contentDescription="zy"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xy"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xy" />
+            android:contentDescription="xy"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/cy"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="cy" />
+            android:contentDescription="cy"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/my"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="my" />
+            android:contentDescription="my"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/py"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="py" />
+            android:contentDescription="py"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/kai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="kai" />
+            android:contentDescription="kai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/lai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="lai" />
+            android:contentDescription="lai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/nai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="nai" />
+            android:contentDescription="nai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/tai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="tai" />
+            android:contentDescription="tai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zai" />
+            android:contentDescription="zai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xai" />
+            android:contentDescription="xai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/cai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="cai" />
+            android:contentDescription="cai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/mai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="mai" />
+            android:contentDescription="mai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pai"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pai" />
+            android:contentDescription="pai"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/kau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="kau" />
+            android:contentDescription="kau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/lau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="lau" />
+            android:contentDescription="lau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/nau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="nau" />
+            android:contentDescription="nau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/tau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="tau" />
+            android:contentDescription="tau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zau" />
+            android:contentDescription="zau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xau" />
+            android:contentDescription="xau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/cau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="cau" />
+            android:contentDescription="cau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/mau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="mau" />
+            android:contentDescription="mau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pau"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pau" />
+            android:contentDescription="pau"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/kia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="kia" />
+            android:contentDescription="kia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/lia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="lia" />
+            android:contentDescription="lia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/nia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="nia" />
+            android:contentDescription="nia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/tia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="tia" />
+            android:contentDescription="tia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/zia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="zia" />
+            android:contentDescription="zia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/xia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="xia" />
+            android:contentDescription="xia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/cia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="cia" />
+            android:contentDescription="cia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/mia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="mia" />
+            android:contentDescription="mia"
+            android:onClick="onClickGrid" />
 
         <Button
             android:id="@+id/pia"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/grid_button_bgcolor"
-            android:onClick="onClickGrid"
-            android:contentDescription="pia" />
+            android:contentDescription="pia"
+            android:onClick="onClickGrid" />
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

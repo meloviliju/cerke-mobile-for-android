@@ -1,2 +1,2 @@
 # cerke mobile for android
-Android app of cerke
+Android app of *cerke*

@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Cerke Mobile for Android</string>
+    <string name="rkauk">rkauk</string>
+    <string name="bkauk">bkauk</string>
+    <string name="rgua">rgua</string>
+    <string name="bgua">bgua</string>
+    <string name="rkaun">rkaun</string>
+    <string name="bkaun">bkaun</string>
+    <string name="rdau">rdau</string>
+    <string name="bdau">bdau</string>
+    <string name="rmaun">rmaun</string>
+    <string name="bmaun">bmaun</string>
+    <string name="rkua">rkua</string>
+    <string name="bkua">bkua</string>
+    <string name="rtuk">rtuk</string>
+    <string name="btuk">btuk</string>
+    <string name="ruai">ruai</string>
+    <string name="buai">buai</string>
+    <string name="rnuak">rnuak</string>
+    <string name="bnuak">bnuak</string>
+    <string name="rio">rio</string>
+    <string name="bio">bio</string>
+    <string name="btam">btam</string>
 </resources>

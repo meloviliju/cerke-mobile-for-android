@@ -200,13 +200,12 @@ class MainActivity : AppCompatActivity() {
             if (null != chosenPiece) {
                 if (chosenPiece!!.parent != piece_frame) {
                     toast("Can't parachute hand where other piece is!")
-                }else{
+                }else if (chosenPiece!!.tag != view.tag){
                     gain(chosenPiece, view)
                 }
                 chosenPiece = null
             } else {
                 chosenPiece = view
-                // toast(view.contentDescription.toString())
             }
         }
     }

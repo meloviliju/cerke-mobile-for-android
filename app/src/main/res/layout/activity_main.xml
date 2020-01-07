@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:onClick="onClickButton"
         android:text="Check"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -61,7 +62,7 @@
             android:id="@+id/blackHandQueue"
             android:layout_width="0dp"
             android:layout_height="48dp"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 
     <ScrollView
@@ -81,7 +82,7 @@
             android:id="@+id/redHandQueue"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 
     <ImageView

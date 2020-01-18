@@ -5,8 +5,8 @@
 ![license:MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform:Android](https://img.shields.io/badge/platform-Android-brightgreen.svg)    
 Android app of *cerke*  
-This will help you play *cerke* with your friend face to face.
 
+This will help you play *cerke* with your friend face to face.  
 For more information, see [Wiki](https://github.com/schwert398/cerke-mobile-for-android/wiki)
 
 ## Requirement

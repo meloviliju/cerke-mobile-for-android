@@ -1,4 +1,4 @@
-[English](https://github.com/schwert398/cerke-mobile-for-android/blob/master/README.md) | [日本語](https://github.com/schwert398/cerke-mobile-for-android/blob/master/README.ja.md)
+[English](README.md) | [日本語](README.ja.md)
 
 # cerke mobile for android
 ![language:Kotlin](https://img.shields.io/badge/language-Kotlin-orange.svg)

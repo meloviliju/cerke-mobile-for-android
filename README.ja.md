@@ -7,7 +7,7 @@
 机戦のAndroidアプリです。  
 
 オフラインでの対人戦をサポートします。布教・対戦などにどうぞ。  
-詳しくは[Wiki](https://github.com/schwert398/cerke-mobile-for-android/wiki)を参照してください。
+詳しくは[Wiki](https://github.com/meloviliju/cerke-mobile-for-android/wiki)を参照してください。
 
 ## 最小要件
 Android 4.1+ (Jelly Bean+)

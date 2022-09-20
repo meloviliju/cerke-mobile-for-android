@@ -7,12 +7,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/initButton"
+        android:id="@+id/placeButton"
         android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
         android:onClick="onClickButton"
-        android:text="INIT"
+        android:text="Place"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:onClick="onClickButton"
+        android:text="Reset"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/placeButton"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

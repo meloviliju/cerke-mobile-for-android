@@ -1,4 +1,4 @@
-package com.schwert398.cerkemobileforandroid
+package com.meloviliju.cerkemobileforandroid
 
 import org.junit.Test
 

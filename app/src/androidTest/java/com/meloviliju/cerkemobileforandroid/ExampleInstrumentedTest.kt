@@ -1,4 +1,4 @@
-package com.schwert398.cerkemobileforandroid
+package com.meloviliju.cerkemobileforandroid
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.schwert398.cerkemobileforandroid", appContext.packageName)
+        assertEquals("com.meloviliju.cerkemobileforandroid", appContext.packageName)
     }
 }

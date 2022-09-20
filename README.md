@@ -7,7 +7,7 @@
 Android app of *cerke*  
 
 This will help you play *cerke* with your friend face to face.  
-For more information, see [Wiki](https://github.com/schwert398/cerke-mobile-for-android/wiki)
+For more information, see [Wiki](https://github.com/meloviliju/cerke-mobile-for-android/wiki)
 
 ## Requirement
 Android 4.1+ (Jelly Bean+)
